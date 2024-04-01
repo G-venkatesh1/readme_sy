@@ -1,7 +1,7 @@
 #The script needs FP32,INT8 ONNX Models, Operations supported are
 #Compare Outputs:
 
-##Command to Run:
+## Command to Run:
 ```python main.py <fp32_model_path> <int8_model_path> --compare_outputs --npy_fp32 fp32_outputs.npy --npy_int8 int8_outputs.npy --mse_json mse_values.json --cos_json cos_values.json --mse_txt mse_greater_than_0.5.txt```
 
 
