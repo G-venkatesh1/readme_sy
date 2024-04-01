@@ -34,7 +34,7 @@ The model is loaded, and inference is performed.
 Profiling is enabled to measure the inference time.
 The results are saved in a JSON file containing profiling information.
 
-##A dditional Notes:
+##  Additional Notes:
 
 Replace <fp32_model_path> and <int8_model_path> with the actual file paths of the FP32 and INT8 ONNX models.
 Ensure that Python and necessary libraries (such as NumPy, Torch, ONNX, and ONNXRuntime) are installed.
